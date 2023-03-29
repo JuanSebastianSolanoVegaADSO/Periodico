@@ -1,4 +1,5 @@
 main{
+    position: absolute;
     background-color: #cfc19e;
     top: 0;
     right: 0;
@@ -11,27 +12,38 @@ main{
 }
 
 .caja1{
-    position: absolute;
+    position: relative;
     background-color: black;
     top: 30px;
     bottom: 0px;
     width: 200px;
-    height: 500px;
+    height: 350px;
     right: 60px;
-    left: 200px;
-    border: solid 20px;
-
+    left: 20px;
+    border: solid blue;
 }
 
 .caja2{
     position: absolute;
-    background-color: blue;
+    background-color: aqua;
     top: 30px;
     bottom: 0px;
     width: 200px;
-    height: 200px;
-    right: 700px;
-    left: 200px;
-    border: solid 20px;
+    height: 150px;
+    right: 500px;
+    left: 380px;
+    border: solid blue;
 
+}
+
+.caja3{
+    position: absolute;
+    background-color: bisque;
+    top: 30px;
+    bottom: 0px;
+    width: 200px;
+    height: 150px;
+    right: 600px;
+    left: 600px;
+    border: solid blue;   
 }
