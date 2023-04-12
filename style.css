@@ -1,49 +1,257 @@
 main{
     position: absolute;
-    background-color: #cfc19e;
+    background-color: aqua;
     top: 0;
     right: 0;
-    left: 0;
     bottom: 0;
+    left: 0;
+    width: 800px;
+    height: 945px;
     margin: auto;
-    height: 100vh;
-    width: 1000px;
-    border: solid #ffffff;
 }
+.cajaI{
+    position: absolute;
+    background-color: rgba(202,188,153,255);
+    width: 400px;
+    height: 945px;
+    top: 0;
+}
+.caja1I{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border: 2px solid black;
+    height: 472px;
+    width: 190px;
+}
+.imagen1{
+    position: absolute;
+    top: 7px;
+    
+}
+.textoluto{
+    position: absolute;
+    top: 155px;
+    font-size: 12px;
+    text-align: center;
+}
+.te{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.t{
+    position: absolute;
+    top: 160px;
+    left: 15px;
+}
+.to{
+    position: absolute;
+    top: 190px;
+    left: 70px;
+}
+.tu{
+    position:absolute ;
+    top: 180px;
+    left: 35px;
+}
+.t1{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+.t2{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+.caja2I{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 2px solid black;
+    height: 472px;
+    width: 190px;
+}
+.p1{
+    position: absolute;
+    font-size: 15px;
+}
+.texto1{
+    background-color: #9d927e;
+    position: absolute;
+    border: 3px dashed black;
+    width: 185px;
+    height: 100px;
+}
+.grand{
+    position: absolute;
+    left: 11px;
+    bottom: 80px;
+    font-size: 19px;
+}
+.tans{
+    position: absolute;
+    left: 65px;
+    bottom: 57px;
+    font-size: 20px;
+}
+.one{
+    position: absolute;
+    bottom: 15px;
+    width: 90px;
+    height: 50px;
+    left: 40px;
+    text-align: center;
 
-.caja1{
-    position: relative;
-    background-color: black;
-    top: 30px;
-    bottom: 0px;
-    width: 200px;
-    height: 350px;
-    right: 60px;
+}
+.num1{
+    position: absolute;
+    font-size: 35px;
+    top: 35px;
+    left: 8px;
+}
+.num2{
+    position: absolute;
+    font-size: 35px;
+    top: 35px;
+    right: 15px;
+}
+.signo{
+    position: absolute;
+    font-size: 25px;
+    top: 25px;
+    right: 2px;
+}
+.texf{
+    position: absolute;
+    font-size: 15px;
+    left: 4px;
+    top: 70px;
+}
+.tex3{
+    position: absolute;
     left: 20px;
-    border: solid blue;
-}
-
-.caja2{
-    position: absolute;
-    background-color: aqua;
-    top: 30px;
-    bottom: 0px;
-    width: 200px;
-    height: 150px;
-    right: 500px;
-    left: 380px;
-    border: solid blue;
+    top: 85px;
+    font-size: small;
 
 }
-
-.caja3{
+.best{
     position: absolute;
-    background-color: bisque;
-    top: 30px;
-    bottom: 0px;
-    width: 200px;
-    height: 150px;
-    right: 600px;
-    left: 600px;
-    border: solid blue;   
+    top: 355px;
+    left: 25px;
+    text-align: center;
+    font-size: 15px;
+    width: 130px;
+}
+.list{
+    left: 25px;
+    font-size: small;
+    position: absolute;
+    top: 385px;
+}
+
+.SUN{
+    position: absolute;
+    bottom: 0,1px;
+    font-size: 11px;
+}
+
+.caja3I{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    border: 2px solid black;
+    height: 455px;
+    width: 386px;
+}
+
+.wanted{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -30px;
+}
+
+.sub{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 25px;
+    top: -17px;
+    position: relative;
+}
+
+.sub2 {
+    text-align: center;
+    position: relative;
+    top: -47px;
+}
+.colum {
+    position: relative;
+    bottom: 45px;
+    width: 390px;
+    height: 390px;
+    font: 1em sans-serif;
+    column-count: 2;
+    font-size: small;
+}
+.vote{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid #000;
+}
+
+.cajaD{
+    position: absolute;
+    width: 400px;
+    height: 945px;
+    right: 0;
+    background-color: rgba(202,188,153,255);
+}
+.caja1D{
+    position: absolute;
+    width: 190px;
+    height: 680px;
+    top: 5px;
+    right: 5px;
+    border: 2px solid black;
+
+}
+.caja2D{
+    position: absolute;
+    width: 190px;
+    height: 680px;
+    top: 5px;
+    left: 5px;
+    border: 2px solid black;
+}
+
+.texto_la1{
+    font-size: small;
+    
+}
+.lis_tex{
+    font-size: small;
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+.lis_tex2{
+    font-size: small;
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+.caja3D{
+    background-image: url(img3.png);
+    position: absolute;
+    width: 386px;
+    left: 5px;
+    height: 245px;
+    bottom: 0;
+    border: 2px solid black;
 }
